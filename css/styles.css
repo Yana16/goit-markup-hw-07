@@ -84,14 +84,13 @@ p {
 }
 
 
-/* common style end*/
-
-/* section header start */
-
 .header-link.current {
     color: var(--txt-focus);
 }
 
+/* common style end*/
+
+/* section header start */
 .header {
     border-bottom: 1px solid var(--header-line);
 }
@@ -321,7 +320,7 @@ span.logo-white {
 
 /* section skills start */
 
-.skills {
+/* .skills {
     padding-bottom: 94px;
 }
 
@@ -359,7 +358,7 @@ span.logo-white {
     line-height: 1.17;
     text-align: center;
     padding-bottom: 50px;
-}
+} */
 
 /* section skills end */
 
