@@ -1,11 +1,15 @@
 .footer {
-    display: flex;
     background-color: var(--bg-order);
     padding: 60px 0px;
 
+& .container  {
+    display: flex;
+    align-items: baseline;
+}
 
 &__container {
     display: flex;
+    align-items: baseline;
 }
 
 

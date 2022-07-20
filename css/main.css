@@ -299,16 +299,24 @@ p {
 }
 
 .footer {
+  background-color: var(--bg-order);
+  padding: 60px 0px;
+}
+.footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: var(--bg-order);
-  padding: 60px 0px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 .footer__address-box {
   font-size: 14px;
