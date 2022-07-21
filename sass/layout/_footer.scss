@@ -2,16 +2,10 @@
     background-color: var(--bg-order);
     padding: 60px 0px;
 
-& .container  {
+&.container  {
     display: flex;
     align-items: baseline;
 }
-
-&__container {
-    display: flex;
-    align-items: baseline;
-}
-
 
 &__address-box {
     font-size: 14px;
@@ -41,7 +35,7 @@
     color: var(--txt-mail-footer);
 }
 
-&__links {
+&__sociallinks {
     margin-left: 70px;
 }
 
