@@ -2,16 +2,13 @@
     background-color: var(--bg-order);
     padding: 60px 0px;
 
-&.container  {
-    display: flex;
-    align-items: baseline;
-}
 
 &__address-box {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
 
 &__addressdescr {
     display: flex;
@@ -20,7 +17,6 @@
     margin-top: 20px;
     margin-bottom: 9px;
 }
-
 
 &__mailto {
     display: flex;
@@ -35,7 +31,7 @@
     color: var(--txt-mail-footer);
 }
 
-&__sociallinks {
+&__container-links {
     margin-left: 70px;
 }
 
@@ -143,4 +139,8 @@
     margin-left: 10px;
 }
 }
+
+
+
+
 
